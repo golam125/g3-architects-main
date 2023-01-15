@@ -1,0 +1,439 @@
+* {
+    font-family: 'Work Sans';
+    margin: 0px;
+}
+
+/* 
+Header */
+
+header {
+    padding-top: 50px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 40px;
+    background: rgba(255, 144, 14, 0.1);
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+
+header a {
+    text-decoration: none;
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #424242;
+    margin-left: 50px
+}
+
+/* Banner */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-title {
+    margin-top: 116px;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+}
+
+.banner-description {
+    width: 50%;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+
+}
+
+.banner-btn {
+    margin-top: 35px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.banner img {
+    width: 100%;
+    margin-top: 40px;
+}
+
+/* Main section */
+
+main {
+
+    background: #FFFFFF;
+    padding-top: 85px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 40px;
+}
+
+
+/* Features Section */
+
+.features {
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-bottom: 130px;
+}
+
+
+.team-photos {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.team-photos img {
+    width: 100%;
+}
+
+.features-details {
+    width: 50%;
+}
+
+.features-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+}
+
+.bold {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+.orange {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+
+    color: #FF900E;
+
+}
+
+
+.fetures-description {
+
+
+    margin-top: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+
+}
+
+.features-btn {
+
+    margin-top: 35px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+
+/* Features List */
+
+
+.features-list {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.list {
+    width: 50%;
+}
+
+
+.list-title {
+
+    border-left: 7px solid #FF900E;
+    padding-left: 21px;
+    font-family: 'Work Sans';
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+
+}
+
+.list-details {
+    margin-top: 24px;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #727272;
+
+}
+
+.lsit-item {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.list-item-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #131313;
+}
+
+.list-item-details {
+
+    margin-top: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.list-img {
+    padding-left: 146px;
+    ;
+    width: 50%;
+    margin-bottom: 130px;
+    position: relative;
+}
+
+.features-list-btn {
+
+    position: absolute;
+    bottom: -77px;
+    left: 16px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 5px;
+    padding: 40px 42px;
+    font-family: 'Work Sans';
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.Years {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    /* or 108% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+
+/* Some Facts */
+
+.facts {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+
+.facts-details {
+    width: 50%;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.fact-badge {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.fact-badge-section {
+    padding: 45px 36px;
+    margin-bottom: 180px;
+    text-align: center;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+
+
+    transition: transform .2s;
+
+
+}
+
+.fact-badge-section:hover {
+    transform: scale(1.5);
+    transform: scale(1.5);
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+.counter {
+    margin-top: 10px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+}
+
+
+.counter-details {
+    margin-top: 5px;
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #727272;
+
+}
+
+
+/* Our Sponspors */
+
+.sponspors-title {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    text-align: center;
+    color: #131313;
+
+}
+
+.sponspors-des {
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 24px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.sponsers-logo {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+    mix-blend-mode: luminosity;
+}
+
+/* Footer */
+
+footer {
+    padding-left: 240PX;
+    padding-RIGHT: 240PX;
+    padding-bottom: 216PX;
+
+}
+
+.footer {
+    background-color: #FF900E;
+    padding: 39PX;
+    background: #FFF4E7;
+    border-radius: 8px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+
+    /* Dark 02 */
+
+    color: #424242;
+
+}
